@@ -50,55 +50,42 @@ public class QuizActivity extends AppCompatActivity {
 
     }*/
 
-    public int q1(View view) {
+    public void q1(View view) {
         boolean checked = ((RadioButton) view).isChecked();
         switch (view.getId()) {
             case R.id.odg3:
-                if (checked) {
+                if (checked)
                     points += 1;
-                    return points;
-                }
         }
-        wrong += 1;
-        return wrong;
     }
 
-    public int q2(View view) {
+    public void q2(View view) {
         boolean checked = ((RadioButton) view).isChecked();
         switch (view.getId()) {
             case R.id.odg8:
-                if (checked){
+                if (checked)
                     points += 1;
-                    return points;
-                }
         }
-        wrong += 1;
-        return wrong;
     }
 
-    public int q3(View View) {
+    public void q3(View View) {
         EditText odg = (EditText) findViewById(R.id.editText1);
         String odgTekst = odg.getText().toString().toUpperCase();
         if (odgTekst.equals("MLJET")) {
             points += 1;
         }
-        return points;
     }
 
-    public int q4(View view) {
+    public void q4(View view) {
         boolean checked = ((RadioButton) view).isChecked();
         switch (view.getId()) {
             case R.id.odg9:
                 if (checked)
                     points += 1;
-                break;
-            default:
-                break;
         }
-        return points;
     }
 
-    public int q5(View View) {
+    public void q5(View View) {
         CheckBox cb1 = (CheckBox) findViewById(R.id.cb2);
         boolean cbv1 = cb1.isChecked();
         CheckBox cb2 = (CheckBox) findViewById(R.id.cb3);
@@ -107,31 +94,23 @@ public class QuizActivity extends AppCompatActivity {
         boolean cbv3 = cb3.isChecked();
         if (cbv1 && cbv2 && cbv3) {
             points = +1;
-            return points;
         }
-        wrong += 1;
-        return wrong;
     }
 
-    public int q6(View view) {
+    public void q6(View view) {
         boolean checked = ((RadioButton) view).isChecked();
         switch (view.getId()) {
             case R.id.odg9:
-                if (checked) {
+                if (checked)
                     points += 1;
-                    return points;
-                }
         }
-        wrong += 1;
-        return wrong;
     }
-    public int q7(View View) {
+    public void q7(View View) {
         EditText odg = (EditText) findViewById(R.id.editText2);
         String odgTekst = odg.getText().toString().toUpperCase();
         if (odgTekst.equals("SJEVERNI VELEBIT")) {
             points += 1;
         }
-        return points;
     }
 
     public void onClickResult(View v) {
