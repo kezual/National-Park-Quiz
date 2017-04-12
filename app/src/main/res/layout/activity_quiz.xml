@@ -27,37 +27,38 @@
                 android:src="@drawable/hajducki" />
 
             <RadioGroup
+                android:id="@+id/radio1"
                 style="@style/quizRadioG"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp">
 
                 <RadioButton
-
+                    android:id="@+id/odg1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q1"
                     android:text="" />
 
                 <RadioButton
-
+                    android:id="@+id/odg2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q1"
                     android:text="" />
 
                 <RadioButton
-
+                    android:id="@+id/odg3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="" />
+                    android:onClick="q1"
+                    android:text="Sjeverni Velebit" />
 
                 <RadioButton
-
+                    android:id="@+id/odg4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q1"
                     android:text="" />
             </RadioGroup>
         </LinearLayout>
@@ -82,32 +83,32 @@
                 android:padding="16dp">
 
                 <RadioButton
-
+                    android:id="@+id/odg5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q2"
                     android:text="" />
 
                 <RadioButton
-
+                    android:id="@+id/odg6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q2"
                     android:text="" />
 
                 <RadioButton
-
+                    android:id="@+id/odg7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q2"
                     android:text="" />
 
                 <RadioButton
-
+                    android:id="@+id/odg8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="" />
+                    android:onClick="q2"
+                    android:text="Plitvička Jezera" />
             </RadioGroup>
         </LinearLayout>
 
@@ -124,7 +125,9 @@
                 style="@style/quizText"
                 android:text="@string/p3" />
 
-            <EditText style="@style/quizEdit" />
+            <EditText
+                android:id="@+id/editText1"
+                style="@style/quizEdit" />
         </LinearLayout>
 
         <LinearLayout
@@ -151,32 +154,32 @@
                 android:padding="16dp">
 
                 <RadioButton
-
+                    android:id="@+id/odg9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="" />
+                    android:onClick="q4"
+                    android:text="Kornati" />
 
                 <RadioButton
-
+                    android:id="@+id/odg10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="" />
+                    android:onClick="q4"
+                    android:text="odg10" />
 
                 <RadioButton
-
+                    android:id="@+id/odg11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="" />
+                    android:onClick="q4"
+                    android:text="odg11" />
 
                 <RadioButton
-
+                    android:id="@+id/odg12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="" />
+                    android:onClick="q4"
+                    android:text="odg12" />
             </RadioGroup>
         </LinearLayout>
 
@@ -194,21 +197,30 @@
                 android:text="@string/p5" />
 
             <CheckBox
+                android:id="@+id/cb1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
+                android:id="@+id/cb2"
+                android:text="Risnjak"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
+                android:id="@+id/cb3"
+                android:text="Paklenica"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
+                android:id="@+id/cb4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
+                android:id="@+id/cb5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
+                android:text="Brijuni"
+                android:id="@+id/cb6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -233,31 +245,31 @@
                 android:padding="16dp">
 
                 <RadioButton
-
+                    android:id="@+id/odg13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q6"
                     android:text="" />
 
                 <RadioButton
-
+                    android:id="@+id/odg14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q6"
                     android:text="" />
 
                 <RadioButton
-
+                    android:id="@+id/odg15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
-                    android:text="" />
+                    android:onClick="q6"
+                    android:text="Risnjak" />
 
                 <RadioButton
-
+                    android:id="@+id/odg16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked"
+                    android:onClick="q6"
                     android:text="" />
             </RadioGroup>
         </LinearLayout>
@@ -279,7 +291,9 @@
                 style="@style/quizImg"
                 android:src="@drawable/luka" />
 
-            <EditText style="@style/quizEdit" />
+            <EditText
+                android:id="@+id/editText2"
+                style="@style/quizEdit" />
 
         </LinearLayout>
 
@@ -287,8 +301,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
             style="@style/introButton"
-            android:id="@+id/introButton"
+            android:id="@+id/endButton"
             android:text="@string/kraj"
-            android:onClick="result"/>
+            android:onClick="onClickResult"/>
     </LinearLayout>
 </ScrollView>
