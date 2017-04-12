@@ -16,4 +16,16 @@
     <string name="p6">U kojem nacionalnom parku izvire prekrasna rijeka Kupa?</string>
     <string name="p7">U kojem NP-u se nalazi 1431 metara duboka Lukina jama?</string>
     <string name="kraj">Završi</string>
+    <string name="brijuni">Brijuni</string>
+    <string name="kornati">Kornati</string>
+    <string name="krka">Krka</string>
+    <string name="mljet">Mljet</string>
+    <string name="paklenica">Paklenica</string>
+    <string name="plitvicka">Plitvička jezera</string>
+    <string name="risnjak">Risnjak</string>
+    <string name="sjvel">Sjeverni Velebit</string>
+    <string name="rit">Kopački rit</string>
+    <string name="biokovo">Biokovo</string>
+    <string name="ucka">Učka</string>
+    <string name="pag">Pag</string>
 </resources>

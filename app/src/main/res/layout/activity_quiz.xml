@@ -38,28 +38,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q1"
-                    android:text="" />
+                    android:text="@string/biokovo" />
 
                 <RadioButton
                     android:id="@+id/odg2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q1"
-                    android:text="" />
+                    android:text="@string/krka" />
 
                 <RadioButton
                     android:id="@+id/odg3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q1"
-                    android:text="Sjeverni Velebit" />
+                    android:text="@string/sjvel" />
 
                 <RadioButton
                     android:id="@+id/odg4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q1"
-                    android:text="" />
+                    android:text="@string/kornati" />
             </RadioGroup>
         </LinearLayout>
 
@@ -87,28 +87,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q2"
-                    android:text="" />
+                    android:text="@string/risnjak" />
 
                 <RadioButton
                     android:id="@+id/odg6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q2"
-                    android:text="" />
+                    android:text="@string/paklenica" />
 
                 <RadioButton
                     android:id="@+id/odg7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q2"
-                    android:text="" />
+                    android:text="@string/brijuni" />
 
                 <RadioButton
                     android:id="@+id/odg8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q2"
-                    android:text="Plitvička Jezera" />
+                    android:text="@string/plitvicka" />
             </RadioGroup>
         </LinearLayout>
 
@@ -158,28 +158,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q4"
-                    android:text="Kornati" />
+                    android:text="@string/kornati" />
 
                 <RadioButton
                     android:id="@+id/odg10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q4"
-                    android:text="odg10" />
+                    android:text="@string/mljet" />
 
                 <RadioButton
                     android:id="@+id/odg11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q4"
-                    android:text="odg11" />
+                    android:text="@string/brijuni" />
 
                 <RadioButton
                     android:id="@+id/odg12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q4"
-                    android:text="odg12" />
+                    android:text="@string/pag" />
             </RadioGroup>
         </LinearLayout>
 
@@ -198,28 +198,31 @@
 
             <CheckBox
                 android:id="@+id/cb1"
+                android:text="@string/biokovo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
                 android:id="@+id/cb2"
-                android:text="Risnjak"
+                android:text="@string/risnjak"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
                 android:id="@+id/cb3"
-                android:text="Paklenica"
+                android:text="@string/paklenica"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
                 android:id="@+id/cb4"
+                android:text="@string/rit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
                 android:id="@+id/cb5"
+                android:text="@string/ucka"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <CheckBox
-                android:text="Brijuni"
+                android:text="@string/brijuni"
                 android:id="@+id/cb6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -249,28 +252,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q6"
-                    android:text="" />
+                    android:text="@string/plitvicka" />
 
                 <RadioButton
                     android:id="@+id/odg14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q6"
-                    android:text="" />
+                    android:text="@string/krka" />
 
                 <RadioButton
                     android:id="@+id/odg15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q6"
-                    android:text="Risnjak" />
+                    android:text="@string/risnjak" />
 
                 <RadioButton
                     android:id="@+id/odg16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:onClick="q6"
-                    android:text="" />
+                    android:text="@string/ucka" />
             </RadioGroup>
         </LinearLayout>
 
