@@ -12,50 +12,27 @@
             android:id="@+id/introImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:scaleType="center"
+            android:scaleType="centerCrop"
             android:src="@drawable/intro" />
 
         <TextView
-            android:textAllCaps="true"
-            android:background="#70EEEEEE"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="58dp"
-            android:text="@string/heading"
-            android:textAlignment="center"
-            android:textColor="#0D47A1"
-            android:textSize="34sp" />
+            style="@style/introHeading"
+            android:text="@string/heading" />
 
         <TextView
-            android:background="#1565C0"
-            android:textColor="#fff"
+            style="@style/introHead"
             android:id="@+id/introHead"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_below="@id/introImage"
-            android:padding="8dp"
-            android:text="@string/introHead"
-            android:textSize="24sp" />
+            android:text="@string/introHead" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            style="@style/introText"
             android:layout_below="@id/introHead"
-            android:paddingTop="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:text="@string/introTekst"
-            android:textSize="16sp" />
+            android:text="@string/introText" />
 
         <Button
+            style="@style/introButton"
             android:id="@+id/introButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
-            android:layout_marginBottom="40dp"
             android:text="@string/start" />
 
     </RelativeLayout>
