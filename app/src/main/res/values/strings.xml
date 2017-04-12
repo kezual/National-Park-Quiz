@@ -5,4 +5,15 @@
     <string name="introHead">Koliko znate o nacionalnim parkovima Hrvatske?</string>
     <string name="introText">Odgovorite na sljedeća pitanja da testirate svoje znanje o prelijepim
         hrvatskim nacionalnim parkovima koja će vas, nadamo se, natjerati da istražite nevjerojatna mjesta koja se nalaze iza ugla. Pa krenimo...</string>
+    <string name="pitanje">Pitanje</string>
+    <string name="p1">U kojem se NP-u nalazi strogi rezervat prirode Hajdučki i Rožanski kukovi?</string>
+    <string name="p2">Koji je najstariji NP u Hrv?</string>
+    <string name="p3">U kojem je NP-u nimfa Kalipsa, navodno, privoljela vječnog putnika,
+     Odiseja, na višegodišnji ostanak?</string>
+    <string name="p4">Od tri otočna NP-a, samo jedan, prikazan na slici, ponosno nosi titulu
+    najrazvedenije otočne skupine u Sredozemlju. Koji?</string>
+    <string name="p5">Označi sve odgovore koji spadaju u nacionalne parkove?</string>
+    <string name="p6">U kojem nacionalnom parku izvire prekrasna rijeka Kupa?</string>
+    <string name="p7">U kojem NP-u se nalazi 1431 metara duboka Lukina jama?</string>
+    <string name="kraj">Završi</string>
 </resources>
